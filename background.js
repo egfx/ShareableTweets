@@ -32,5 +32,18 @@ function removeCookie() {
     });
 }
 
+function updatePageAction(tabId) {
+  chrome.tabs.sendRequest(tabId, {is_content_script: true}, function(response) {
+    if (response.is_content_script)
+      chrome.pageAction.show(tabId);
+  });
+};
+
+chrome.tabs.onUpdated.addListener(function(tabId, change, tab) {
+  if (change.status == "complete") {
+    updatePageAction(tabId);
+  }
+});
+
 chrome.webRequest.onBeforeSendHeaders.addListener(handler, requestFilter, extraInfoSpec);
 chrome.runtime.onInstalled.addListener(removeCookie);
