@@ -1,6 +1,6 @@
 {
-  "name": "GoodTwitter",
-  "version": "1.3",
+  "name": "Gr8Twitter",
+  "version": "1.0",
   "description": "Forces your browser to use old twitter.",
   "manifest_version": 2,
   "permissions": [
