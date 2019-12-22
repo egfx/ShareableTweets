@@ -1,3 +1,9 @@
+<html>
+  <head>
+    <META http-equiv="refresh" content="0;URL=/site/index.html">
+  </head>
+</html>
+
 # Shareable Tweets
 Shareable Tweets let's you share and Facebook React to tweets on Twitter.com
 
