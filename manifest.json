@@ -1,7 +1,7 @@
 {
-  "name": "Gr8Twitter",
-  "version": "1.0",
-  "description": "Forces your browser to use old twitter.",
+  "name": "Shareable Tweets",
+  "version": "3.0",
+  "description": "Adds a Facebook Reaction bar to each tweet in the timeline.",
   "manifest_version": 2,
   "permissions": [
     "webRequest",
