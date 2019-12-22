@@ -1,5 +1,7 @@
 # Shareable Tweets
-Shareable Tweets adds a Facebook Reaction's bar to the timeline and let's you create Facebook share links for tweets.
+Shareable Tweets let's you share and Facebook React to tweets on Twitter.com
+
+![Shareable Tweets!](https://i.imgur.com/Zq75YDC.png)
 
 ## Installation
 This extension is available here: [Chrome Web Store](https://chrome.google.com/webstore/detail/shareable-tweets/gmdhfohiimofdkgfibdamlamdbehooba)
