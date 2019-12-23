@@ -15,11 +15,9 @@ This extension is available here: [Chrome Web Store](https://chrome.google.com/w
 ## API Mode
 Add http://2fb.me/ before any link.
 
-Share an Instagram picture
-`http://2fb.me/https://www.instagram.com/p/B6LpVGNJ9o7/`
+<code>Share an Instagram picture: <a href="http://2fb.me/https://www.instagram.com/p/B6LpVGNJ9o7/">http://2fb.me/https://www.instagram.com/p/B6LpVGNJ9o7/</a></code>
 
-Share an Amazon product
-`http://2fb.me/https://www.amazon.com/Trader-Joes-Licorice-Twists-Black/dp/B072LWSQNG`
+<code>Share an Amazon product: <a href="http://2fb.me/https://www.amazon.com/Trader-Joes-Licorice-Twists-Black/dp/B072LWSQNG">http://2fb.me/https://www.amazon.com/Trader-Joes-Licorice-Twists-Black/dp/B072LWSQNG</a></code>
 
 Share a News Article
 `http://2fb.me/https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html`
