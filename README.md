@@ -19,7 +19,7 @@ Add http://2fb.me/ before any link.
 
 <code>Share an Amazon product: <a href="http://2fb.me/https://www.amazon.com/Trader-Joes-Licorice-Twists-Black/dp/B072LWSQNG">http://2fb.me/https://www.amazon.com/Trader-Joes-Licorice-Twists-Black/dp/B072LWSQNG</a></code>
 
-<code>Share a News Article: <a href="http://2fb.me/https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html">http://2fb.me/https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html</a></code>
+<code>Share a NYT article: <a href="http://2fb.me/https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html">http://2fb.me/https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html</a></code>
 
 ## License
 This extension is released under the [MIT License](https://opensource.org/licenses/MIT).
