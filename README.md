@@ -5,7 +5,7 @@
 </html>
 
 # Shareable Tweets
-Shareable Tweets let's you make shareable links. It comes in two flavors, as a Chrome Extension for Twitter and an API that works with any link.
+Shareable Tweets comes in two flavors, as a Chrome Extension for Twitter and an API that works with any link.
 
 ![Shareable Tweets!](https://i.imgur.com/Zq75YDC.png)
 
