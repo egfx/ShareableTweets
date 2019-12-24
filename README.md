@@ -5,7 +5,7 @@
 </html>
 
 # Shareable Tweets
-Shareable Tweets let's you share and Facebook React to tweets on Twitter.com
+Shareable Tweets let's you react to and share tweets on Twitter.com
 
 ![Shareable Tweets!](https://i.imgur.com/Zq75YDC.png)
 
