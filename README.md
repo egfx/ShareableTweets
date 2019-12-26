@@ -1,11 +1,17 @@
 <html>
   <head>
     <META http-equiv="refresh" content="0;URL=/index.html">
+      <style>
+        .drink {
+          width: 200px;
+          height: 200px;
+        }
+      </style>
   </head>
 </html>
 
 # Shareable Tweets
-**:tropical_drink:**  Shareable Tweets comes in two flavors, as a Chrome Extension for Twitter and as an API that works with any link.
+<span class="drink">**:tropical_drink:**</span>  Shareable Tweets comes in two flavors, as a Chrome Extension for Twitter and as an API that works with any link.
 
 ![Shareable Tweets!](https://i.imgur.com/Zq75YDC.png)
 
