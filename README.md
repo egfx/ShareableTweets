@@ -13,7 +13,7 @@ Shareable Tweets comes in two flavors, as a Chrome Extension for Twitter and as 
 This extension is available here: [Chrome Web Store](https://chrome.google.com/webstore/detail/shareable-tweets/gmdhfohiimofdkgfibdamlamdbehooba)
 
 ## API Mode
-Add http://2fb.me/ before any link.
+Add <code>http://2fb.me/</code> before any link.
 
 <code>Share an Instagram picture: <a href="http://2fb.me/https://www.instagram.com/p/B6LpVGNJ9o7/">http://2fb.me/https://www.instagram.com/p/B6LpVGNJ9o7/</a></code>
 
