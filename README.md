@@ -3,11 +3,11 @@
     <META http-equiv="refresh" content="0;URL=/index.html">
   </head>
 </html>
-
+  
+![Shareable Tweets!](https://i.imgur.com/Zq75YDC.png)
+  
 # Shareable Tweets
 Shareable Tweets comes in two flavors, as a Chrome Extension for Twitter and as an API that works with any link.
-
-![Shareable Tweets!](https://i.imgur.com/Zq75YDC.png)
 
 ## Installation
 This extension is available here: [Chrome Web Store](https://chrome.google.com/webstore/detail/shareable-tweets/gmdhfohiimofdkgfibdamlamdbehooba)
