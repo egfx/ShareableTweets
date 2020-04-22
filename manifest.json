@@ -1,7 +1,7 @@
 {
   "name": "Shareable Tweets",
-  "version": "3.0",
-  "description": "Adds a Facebook Reaction bar to each tweet in the timeline.",
+  "version": "3.301",
+  "description": "Facebook sharing SUPER POWERS on Twitter",
   "manifest_version": 2,
   "permissions": [
     "webRequest",

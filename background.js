@@ -32,18 +32,15 @@ function removeCookie() {
     });
 }
 
-function updatePageAction(tabId) {
-  chrome.tabs.sendRequest(tabId, {is_content_script: true}, function(response) {
-    if (response.is_content_script)
-      chrome.pageAction.show(tabId);
-  });
-};
-
-chrome.tabs.onUpdated.addListener(function(tabId, change, tab) {
-  if (change.status == "complete") {
-    updatePageAction(tabId);
-  }
-});
-
 chrome.webRequest.onBeforeSendHeaders.addListener(handler, requestFilter, extraInfoSpec);
 chrome.runtime.onInstalled.addListener(removeCookie);
+
+// One-time reset of settings
+chrome.runtime.onInstalled.addListener(function (details) {
+    if (details.reason === 'install') { 
+      chrome.tabs.create({ url: 'https://twitter.com' });
+    }
+    else if (details.reason === 'update' && /^(((0|1)\..*)|(2\.(0|1)(\..*)?))$/.test(details.previousVersion)) { 
+      ls.clear();
+    }
+});
