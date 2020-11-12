@@ -118,25 +118,25 @@ function start_content_script(){
     }
 }
 
-function tryBlocks(node, emotes, fblink, tweetId, type){
+function tryBlocks(...accessor){
     try {
-        document.querySelector('#stream-item-tweet-'+tweetId+' > div > div.content > div.stream-item-footer > div.ProfileTweet-actionList.js-actions > div.ProfileTweet-action.ProfileTweet-action--reply > button').click();
-        goAction(emotes, fblink, type);
+        document.querySelector('#stream-item-tweet-'+accessor[3]+' > div > div.content > div.stream-item-footer > div.ProfileTweet-actionList.js-actions > div.ProfileTweet-action.ProfileTweet-action--reply > button').click();
+        goAction(accessor[1], accessor[2], accessor[4]);
     } catch(e){
         try {
-            document.querySelector('#stream-item-activity-'+tweetId+' > div > div.content > div.stream-item-footer > div.ProfileTweet-actionList.js-actions > div.ProfileTweet-action.ProfileTweet-action--reply > button').click();
-            goAction(emotes, fblink, type);
+            document.querySelector('#stream-item-activity-'+accessor[3]+' > div > div.content > div.stream-item-footer > div.ProfileTweet-actionList.js-actions > div.ProfileTweet-action.ProfileTweet-action--reply > button').click();
+            goAction(accessor[1], accessor[2], accessor[4]);
         } catch(e){
             console.log('no tweets found to add like buttons on');
         }
     }
 }
 
-function goAction(e, link, type){
+function goAction(...modifier){
     document.querySelector('#global-tweet-dialog-header').innerText = 'React to '+document.querySelector('strong.fullname').innerText;
     document.querySelector('#global-tweet-dialog-dialog').querySelector('span.button-text.replying-text').innerText = 'React';
-    document.querySelector('#tweet-box-global').appendChild(document.createRange().createContextualFragment(`${link}`));
-    go(type, function(){
+    document.querySelector('#tweet-box-global').appendChild(document.createRange().createContextualFragment(`${modifier[1]}`));
+    go(modifier[2], function(){
         console.log('done emoting');
     });
 }
